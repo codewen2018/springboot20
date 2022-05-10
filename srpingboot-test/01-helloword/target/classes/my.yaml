@@ -1,0 +1,7 @@
+person:
+  id: 2
+  name: tom2
+  hobby: [aaa,bbb,cc]
+  family: [ddd,ee]
+  map: {k11:v11,k22:v22}
+  pet: {type:cat,name:aaasdf}

@@ -1,10 +1,6 @@
-
-
 # 项目一、SpringBoot基础
 
 ## 任务一 Spring Boot开发入门
-
-### 知识回顾
 
 ### 课程介绍
 
@@ -19,10 +15,10 @@
 ​		早期版本的Spring专注于XML配置，开发一个程序需要配置各种XML配置文件。为了简化开发，在Spring 2.x版本开始引入少量的注解，由于支持的注解不是很多且功能尚不完善，所以只能辅助使用。
 随着实际生产中敏捷开发的需要，以及Spring注解的大量出现和功能改进，到了Spring 4.x版本基本可以脱离XML配置文件进行项目开发，多数开发者也逐渐感受到了基于注解开发的便利，因此，在Spring中使用注解开发逐渐占据了主流地位。与此同时，Pivotal团队在原有Spring框架的基础上通过注解的方式进一步简化了Spring框架的使用，并基于Spring框架开发了全新的Spring Boot框架。
 
-​		Spring Boot框架本身并不提供Spring框架的核心特性以及扩展功能，只是用于快速、敏捷地开发新一代基于Spring框架的应用，并且在开发过程中大量使用“约定优先配置”（convention over configuration）的思想来摆脱Spring框架中各种复杂的手动配置，同时衍生出了Java Config（取代传统XML配置文件的Java配置类）这种优秀的配置方式。也就是说，Spring Boot并不是替代Spring框架的解决方案，而是和Spring框架紧密结合用于提升Spring开发者体验的工具，同时Spring Boot还集成了大量常用的第三方库配置（例如Jackson、JDBC、Redis、Mail等）。使用Spring Boot开发程序时，几乎是开箱即用（out-of-the-box），大部分的Spring Boot应用都只需少量的配置，这一特性更能促使开发者专注于业务逻辑的实现。
+​		Spring Boot框架本身并不提供Spring框架的核心特性以及扩展功能，只是用于快速、敏捷地开发新一代基于Spring框架的应用，并且在开发过程中大量使用“**约定优先配置**”（convention over configuration）的思想来摆脱Spring框架中各种复杂的手动配置，同时衍生出了Java Config（取代传统XML配置文件的Java配置类）这种优秀的配置方式。也就是说，Spring Boot并不是替代Spring框架的解决方案，而是和Spring框架紧密结合用于提升Spring开发者体验的工具，同时Spring Boot还集成了大量常用的第三方库配置（例如Jackson、JDBC、Redis、Mail等）。使用Spring Boot开发程序时，几乎是开箱即用（out-of-the-box），大部分的Spring Boot应用都只需少量的配置，这一特性更能促使开发者专注于业务逻辑的实现。
 ​		另外，随着近几年微服务开发的需求和火爆，怎样快速、简便地构建一个准生产环境的Spring应用也是摆在开发者面前的一个难题，而Spring Boot框架的出现恰好完美的解决了这些问题，同时内部还简化了许多常用的第三方库配置，使得微服务开发更加便利。
 
-### 构建Spring Boot项目
+### 使用Maven构建Spring Boot项目
 
 #### 基础环境
 
@@ -300,7 +296,12 @@
 
 ### 总结
 
-​		
+1. 创建SpringBoot项目的方式
+   - **通过创建Maevn项目**
+   - Spring.io官网初始化（自动）
+   - Spring.io官网初始化（手动）
+2. 单元测试
+3. 热部署
 
 ### 作业
 
