@@ -313,6 +313,20 @@
 
 ### 知识回顾
 
+1、SpringBoot：约定大于配置
+
+2、3种方式：
+
+- Maven（推荐）
+- Idea+Spring Init（熟悉）
+- Spring Init（不推荐）
+
+3、单元测试
+
+4、热部署
+
+5、SpringBoot原理分析
+
 ### 课程介绍
 
 - 全局配置文件（掌握）
@@ -863,6 +877,19 @@ public class ConfigApplication {
 
 ### 总结
 
+1. 配置文件
+
+   - application.properties
+   - application.yaml
+
+   application.properties优先级高于application.yaml，推荐使用application.yaml
+
+   application.properties会出现中文乱码，而yaml不会
+
+   2个配置文件可以共存
+
+   名字不能改变
+
 ### 作业
 
 1、 完成全局配置文件的使用；
@@ -1026,6 +1053,9 @@ public class DBContollerTest {
 ![image-20220314113932688](images/image-20220314113932688.png)
 
 ### 总结
+
+1. 配置文件
+   - 
 
 ### 作业
 

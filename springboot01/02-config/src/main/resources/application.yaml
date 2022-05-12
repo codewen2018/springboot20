@@ -1,0 +1,10 @@
+# server.port=8099
+server:
+  port: 8088
+# person.id
+person:
+  id: 2
+  name: 彭欢
+  hobby: [唱歌,跳舞]
+  map: {k11: v11,k22: v22}
+  pet: {type: cat,name: mmmmm}

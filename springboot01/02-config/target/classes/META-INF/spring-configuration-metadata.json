@@ -1,0 +1,43 @@
+{
+  "groups": [
+    {
+      "name": "person",
+      "type": "com.pt.domain.Person",
+      "sourceType": "com.pt.domain.Person"
+    }
+  ],
+  "properties": [
+    {
+      "name": "person.family",
+      "type": "java.lang.String[]",
+      "sourceType": "com.pt.domain.Person"
+    },
+    {
+      "name": "person.hobby",
+      "type": "java.util.List",
+      "sourceType": "com.pt.domain.Person"
+    },
+    {
+      "name": "person.id",
+      "type": "java.lang.Integer",
+      "sourceType": "com.pt.domain.Person",
+      "defaultValue": 0
+    },
+    {
+      "name": "person.map",
+      "type": "java.util.Map",
+      "sourceType": "com.pt.domain.Person"
+    },
+    {
+      "name": "person.name",
+      "type": "java.lang.String",
+      "sourceType": "com.pt.domain.Person"
+    },
+    {
+      "name": "person.pet",
+      "type": "com.pt.domain.Pet",
+      "sourceType": "com.pt.domain.Person"
+    }
+  ],
+  "hints": []
+}
