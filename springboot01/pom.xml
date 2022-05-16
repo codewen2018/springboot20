@@ -12,6 +12,7 @@
         <module>01-helloword</module>
         <module>02-config</module>
         <module>03-many-config</module>
+        <module>04-mybatis</module>
     </modules>
 
 
@@ -53,6 +54,25 @@
             <optional>true</optional>
         </dependency>
 
+        <!-- 阿里巴巴的Druid数据源依赖启动器 -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid-spring-boot-starter</artifactId>
+            <version>1.1.10</version>
+        </dependency>
+
+        <!-- MyBatis依赖启动器 -->
+        <dependency>
+            <groupId>org.mybatis.spring.boot</groupId>
+            <artifactId>mybatis-spring-boot-starter</artifactId>
+            <version>2.0.0</version>
+        </dependency>
+        <!-- MySQL数据库连接驱动 -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <scope>runtime</scope>
+        </dependency>
     </dependencies>
 
 </project>

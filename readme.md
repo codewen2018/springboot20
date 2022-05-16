@@ -1082,7 +1082,6 @@ public class DBContollerTest {
 创建数据库、数据表并插入一定的数据：
 
 ```sql
-CREATE DATABASE springbootdata;
 CREATE TABLE `t_article` (
   `id` int(20) NOT NULL AUTO_INCREMENT COMMENT '文章id',
   `title` varchar(200) DEFAULT NULL COMMENT '文章标题',

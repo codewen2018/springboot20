@@ -4,5 +4,6 @@
     <file url="file://$PROJECT_DIR$/01-helloword/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/02-config/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/03-many-config/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04-mybatis/src/main/java" charset="UTF-8" />
   </component>
 </project>
