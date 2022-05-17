@@ -1,9 +1,12 @@
 package com.pt.domain;
 
+import java.util.List;
+
 public class Article {
     private int id;
     private String title;
     private String content;
+    private List<Comment> comments;
 
 
     public int getId() {
@@ -30,12 +33,21 @@ public class Article {
         this.content = content;
     }
 
+    public List<Comment> getComments() {
+        return comments;
+    }
+
+    public void setComments(List<Comment> comments) {
+        this.comments = comments;
+    }
+
     @Override
     public String toString() {
         return "Article{" +
                 "id=" + id +
                 ", title='" + title + '\'' +
                 ", content='" + content + '\'' +
+                ", comments=" + comments +
                 '}';
     }
 }

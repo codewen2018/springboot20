@@ -10,7 +10,7 @@ import org.springframework.transaction.annotation.Transactional;
 import java.util.List;
 
 public interface DiscussRepository extends JpaRepository<Discuss,Integer> {
-
+/*
     // 1、查询author非空的Discuss评论集合
     public List<Discuss> findByAuthorNotNull();
 
@@ -32,7 +32,7 @@ public interface DiscussRepository extends JpaRepository<Discuss,Integer> {
     @Transactional
     @Modifying
     @Query("DELETE from t_comment c WHERE  c.id = ?1")
-    public int deleteDiscuss(Integer id);
+    public int deleteDiscuss(Integer id);*/
 
 
 }
