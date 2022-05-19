@@ -10,6 +10,7 @@
         <module name="03-many-config" />
         <module name="02-config" />
         <module name="04-mybatis" />
+        <module name="05-jpa" />
       </profile>
     </annotationProcessing>
   </component>
@@ -19,6 +20,7 @@
       <module name="02-config" options="-parameters" />
       <module name="03-many-config" options="-parameters" />
       <module name="04-mybatis" options="-parameters" />
+      <module name="05-jpa" options="-parameters" />
       <module name="springboot01" options="-parameters" />
     </option>
   </component>

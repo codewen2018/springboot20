@@ -1852,7 +1852,7 @@ http://localhost:8080/toLoginPage
 
 ![image-20220317164233740](images/image-20220317164233740.png)
 
-### 国际化配置
+### 国际化配置（扩展）
 
 idea中默认properties文件字符集为GBK，需要改为UTF-8：
 
